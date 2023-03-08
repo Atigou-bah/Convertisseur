@@ -3,7 +3,7 @@
     f: 'Fahrenheit'
  }
  const phrase = "Bienvenue dans mon convertisseur de temperature"
- function Typescript (){
+ function Titre (){
    return <div>
       <h1 className="text-center">
          {phrase}
@@ -87,4 +87,4 @@
 
 
 ReactDOM.render(<Calculator/>, document.querySelector("#app"))
-ReactDOM.render(<Typescript/>, document.querySelector("#app2"))
+ReactDOM.render(<Titre/>, document.querySelector("#app2"))
